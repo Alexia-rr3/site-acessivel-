@@ -1,0 +1,133 @@
+    alinhar-conteúdo:centro;
+
+}
+
+.exibição-4{
+    sombra de texto: -5px 5px var(--laranja-claro);
+}
+
+
+#tropicália{
+    posição:parente;
+    acolchoamento superior: 5resto;
+    margem superior: 3resto;
+    margem inferior: 3resto;
+    fundo: URL('img/flor.png') canto superior direito sem repetição,
+        URL('img/flor-esquerda.png') canto inferior esquerdo sem repetição;
+    tamanho do fundo: 180px 180px;
+    /* Ajuste o tamanho conforme necessário */
+}
+
+#tropicália.recipiente{
+    mostrar:flexível;
+    alinhar-itens:centro;
+    justificar-conteúdo:centro;
+    posição:parente;
+    índice z: 1;
+    /* Garantir que o conteúdo fique acima das imagens do fundo */
+}
+
+
+h2{
+    família de fontes: 'Limão',serifa;
+    tamanho da fonte: 2,5em;
+    estilo de fonte:normal;
+    cor: var(--laranja-claro);
+}
+
+#galeria{
+    cor de fundo: #FAF4F4;
+
+}
+
+.fundo-galeria{
+    fundo: URL('img/flor-bottom-direita.png') canto inferior direito sem repetição;
+    tamanho do fundo: 180px 180px;
+}
+
+#contato{
+    imagem de fundo: URL('img/4965007.jpg');
+    tamanho do fundo:cobrir;
+    preenchimento: 4resto 0;
+    /* Espaçamento interno para a seção de contato */
+
+}
+
+.formulário{
+    cor de fundo: #ffffff;
+    preenchimento: 2resto;
+    /* Espaçamento interno dentro do formulário */
+    raio da borda: 10px;
+    /* Borda arredondada para o formulário */
+    caixa-sombra: 0 0 10px RGBA(0, 0, 0, 0,1);
+    /* Sombra suave para destacar o formulário */
+    espessura da fonte:audacioso;
+}
+
+.formulário botão{
+    cor de fundo: #CB6D43;
+    fronteira:nenhum;
+    espessura da fonte:audacioso;
+}
+
+.controle de formulário{
+    cor de fundo: #F1EDEF;
+}
+.menu-acessibilidade{
+    posição:fixo;
+    principal:2resto;
+    certo:20px;
+    índice z: 1000;
+}
+
+.rotacao-botao{
+    transformar: girar(-90graus);
+    transformar-origem:centro-direita;
+}
+
+.opções-acessibilidade{
+    margem superior:10px;
+    mostrar:flexível;
+    direção flexível:coluna;
+}
+
+.opções-acessibilidade botão{
+    margem inferior: 5px;
+}
+.apresenta-lista{
+    mostrar:nenhum;
+}
+
+.alto-contraste{
+    cor de fundo: var(--alto-contraste-fundo);
+    cor: var(--alto-contraste-texto);
+}
+
+.alto-contraste cabeçalho,
+.alto-contraste rodapé,
+.alto-contraste.formulário{
+    cor de fundo: var(--alto-contraste-fundo);
+    cor: var(--alto-contraste-texto);
+}
+
+.alto-contraste.link de navegação{
+    cor: var(--alto-contraste-link);
+}
+
+.alto-contraste.botao-inicio,
+.alto-contraste.formulário botão,
+.alto-contraste.btn-primário{
+    cor de fundo: var(--alto-contraste-link);
+    cor: var(--alto-contraste-fundo)
+}
+
+.alto-contraste #tropicália{
+    fundo:nenhum;
+}
+
+.alto-contraste #galeria{
+    cor de fundo: var(--alto-contraste-fundo);
+}
+.alto-contraste.fundo-galeria{
+    fundo:nenhum;
+}
